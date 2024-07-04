@@ -2,8 +2,12 @@
 """ Console module """
 
 import cmd
+<<<<<<< HEAD
 from models.base_model import BaseModel
 from models import storage
+=======
+
+>>>>>>> feature/console
 
 class HBNBCommand(cmd.Cmd):
     """
@@ -42,6 +46,7 @@ class HBNBCommand(cmd.Cmd):
             print("========================================")
             print("EOF   quit   help")
             print("\nType 'help <command>' to see more details about a specific command.")
+<<<<<<< HEAD
     
     def do_create(self, arg):
         """
@@ -172,6 +177,8 @@ class HBNBCommand(cmd.Cmd):
 
 
         
+=======
+>>>>>>> feature/console
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
